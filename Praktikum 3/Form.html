@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-AU-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Form Pemesanan Pizza</title>
+</head>
+<body bgcolor="beige">
+	<h1>Black Goose Bistro | Pizza</h1>
+	<p>Our 12" wood-fired pizzas are available for delivery.Build your custom pizza and we'll deliver it within an hour.</p>
+	<form  action="Laporan.html">
+		<table>
+			<tr>
+				<td>Name</td>
+				<td>:
+					<input type="text" required></td>
+			</tr>
+			<tr>
+				<td>Address</td>
+				<td>:
+					<input type="text" required> </td>
+			</tr>
+			<tr>
+				<td>No.Handphone</td>
+				<td>:
+					<input type="text"> </td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td>:
+					<input type="email"> </td>
+			</tr>
+			<tr>
+				<td>Delivery instructions </td>
+				<td>:
+					<textarea maxlength="400" placeholder="No more than 400 characters long" cols="22" rows="3"></textarea>
+				</td>
+			</tr>
+		</table>
+
+		<fieldset>
+			<legend><b> Design your dream pizza</b></legend>
+
+			<h3>Crust (choose one)</h3>
+			<ul style="list-style: none;">
+				<li><input type="radio" id="classic" name="crust"><label for="classic">Classic white </label></li>
+				<li><input type="radio" id="multi" name="crust"><label for="multi">Multigrain </label></li>
+				<li><input type="radio" id="una" name="crust"><label for="una">Una Melt </label></li>
+				<li><input type="radio" id="Cheesy" name="crust"><label for="cheesy">Cheesy galore </label></li>
+				<li><input type="radio" id="meat" name="crust"><label for="meat">Meat Lovers </label></li>
+			</ul>
+
+			<h3>Topping (choose as many as you want)</h3>
+			<ul style="list-style: none;">
+				<li>
+					<input type="checkbox"><label>White souce</label>
+				</li>
+				<li>
+					<input type="checkbox"><label>Mozarella cheese</label>
+				</li>
+				<li>
+					<input type="checkbox"><label>Peppreani</label>
+				</li>
+				<li>
+					<input type="checkbox"><label>Mushrooms</label>
+				</li>
+				<li>
+					<input type="checkbox"><label>Peppers</label>
+				</li>
+				<li>
+					<input type="checkbox"><label>Anchories</label>
+				</li>
+				<li>
+					<input type="checkbox"><label>Pineapple</label>
+				</li>
+			</ul>
+
+			<h3>Number</h3>
+			<label>How many pizza:</label>
+			<input type="number" min="1" max="6">
+			
+			<input type="submit" value="Bring me a pizza">
+			<input type="reset">
+		</fieldset>
+		
+	</form>
+</body>
+</html>
