@@ -1,0 +1,56 @@
+body {
+    background-color: lightskyblue;
+    font-family: 'lucida sans', verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+}
+
+p {
+    text-align: justify;
+    width: fit-content;
+}
+
+.center {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+.foto {
+    background-color: black;
+}
+
+.foto img {
+    width: 23%;
+}
+
+.cod {
+    margin: auto;
+    width: 20%;
+}
+
+.cod p {
+    background-color: aqua;
+    border: 5px double red;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+
+.promo {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+
+#tombol {
+    background-color: orange;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+}
