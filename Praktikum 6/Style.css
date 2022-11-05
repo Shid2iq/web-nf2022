@@ -1,0 +1,48 @@
+body {
+  background-color: beige;
+}
+h1 {
+  color: blue;
+  text-align: center;
+}
+#header {
+  background-color: orange;
+}
+.head {
+  background-color: yellow;
+  text-align: center;
+  border: 1px solid;
+}
+.a {
+  text-align: center;
+}
+.gambar {
+  margin: 0 auto;
+  display: inline;
+  width: 100px;
+}
+.Bbesar {
+  color: blue;
+  font-size: 50px;
+  display: inline;
+}
+.koleksi {
+  background-color: white;
+  margin: 0 auto;
+  width: 81%;
+  border: 3px double black;
+}
+.koleksi img {
+  width: 200px;
+  display: inline;
+}
+.promo {
+  margin: 0 auto;
+  width: 70%;
+}
+.promo, .h2, .h3{
+  text-align: center;
+  color: red;
+  background-color: lightgreen;
+  border: 2px solid black;
+}

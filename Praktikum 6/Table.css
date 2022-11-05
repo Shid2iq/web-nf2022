@@ -1,0 +1,32 @@
+body {
+  background-color: beige;
+  font-family: san-serif;
+}
+h1 {
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+  font-size: 50px;
+}
+.table {
+  font-weight: bold;
+}
+.table th {
+  width: 10%;
+  border: 1px solid black;
+}
+.table th ,td {
+  padding: 8px 20px;
+}
+.table tr th {
+  background: blue;
+  color: white;
+  font-size: 25px;
+}
+.table tr:nth-child(even) {
+  background: #86dcec;
+}
+#baris1 {
+  width: 0%;
+  text-align: center;
+}
