@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+header ul li {
+    margin: 0 1.5rem;
+}
+img {
+    width: 4rem;
+}

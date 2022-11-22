@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+header {
+    background-color: lightcoral;
+    padding: 1rem;
+}
+main {
+    display: flex;
+    flex: 1;
+}
+main article {
+    background-color: beige;
+    flex: 2;
+}
+main aside {
+    background-color: lightseagreen;
+    flex: 1;
+}
+main nav {
+    background-color: lightgreen;
+    flex: 1;
+}
+footer {
+    background-color: lightcoral;
+    padding: 1rem;
+}
