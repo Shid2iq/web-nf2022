@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Praktikum 8.4B</title>
+    <style>
+    * {
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+    }
+        .container{
+            display: flex;
+            flex-direction: column;
+            background-color: yellow;
+            padding: 10px;
+        }
+
+        .header{
+            background-color: lightgreen;
+            height: 105px;
+        }
+
+        .main{
+            background-color: yellow;
+            height: 450px;
+            display: flex;
+            padding: 10px;
+        }
+
+        .footer{
+            background-color: coral;
+            height: 105px;
+        }
+
+        .aside{
+            background-color:cornflowerblue;
+            width: 20%;
+            margin-right: 15px;
+        }
+
+        .article{
+            background-color: cadetblue;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+        }
+
+        .bingkai{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .bingkai img{
+            margin: 0.5em;
+            width: 200px;
+            height: 200px;
+        }
+
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+  <main>
+    <div class="container">
+     <div class="header">
+        header
+     </div>
+
+     <div class="main">
+        <div class="aside">
+            aside
+        </div>
+
+        <div class="article">
+            <h3>Article</h3>
+            <div class="bingkai">
+                <img src="gambar1.jpg">
+                <img src="gambar2.jpeg" alt="">
+                <img src="gambar3.jpg" alt="" >
+            </div>
+        </div>
+     </div>
+
+     <div class="footer">
+        footer
+     </div>
+    </div>
+    </main>
+</body>
+</html>
