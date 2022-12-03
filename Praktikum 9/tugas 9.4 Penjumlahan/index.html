@@ -1,0 +1,18 @@
+Nilai Pertama <br>
+<input id="num1" type="number" onchange="myFunction()" /><br>
+Nilai Kedua <br>
+<input id="num2" type="number" onchange="myFunction()" />
+<div id="hasil"> </div><br>
+
+<script>
+  function myFunction() {
+    var num1 = document.getElementById("num1").value;
+    var num2 = document.getElementById("num2").value;
+
+    var hasilPenjumlahan = parseInt(num1) + parseInt(num2); 
+
+    var result = document.getElementById("hasil"); 
+
+    result.innerHTML = hasilPenjumlahan ;
+  }
+</script>
