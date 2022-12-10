@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form Validation</title>
+    <style>
+        span {
+            visibility: hidden;
+            color: red;
+        }
+
+        h1 {
+            visibility: hidden;
+        }
+
+
+    </style>
+</head>
+<body>
+    <p>Nama Lengkap
+    <input id="nama" type="text"  placeholder="Masukan Nama">
+    <span>Nama Tidak Boleh Kosong</span>
+    </p>
+
+    <p>Email
+    <input id="email" type="text" placeholder="Masukan Email Anda">
+    <span>Email Tidak Boleh Kosong</span>
+    </p>
+
+    <p>Jam Keberangkatan
+    <input id="jam" type="time">
+    <span>Jam Keberatan tidak boleh kosong</span>
+    </p>
+
+    <p>Tujuan Keberangkatan
+        <select name="" id="tujuan">
+            <option value="">Jakarta</option>
+            <option value="">Bali</option>
+            <option value="">Surabaya</option>
+            <option value="">Yogyakarta</option>
+            <option value="">Lampung</option>
+            <option value="">Makasar</option>
+
+
+        </select>
+    <span>Tujuan Keberangkatan Tidak Boleh kosong</span>
+    </p>
+
+    <p>Jumlah Tiket
+    <input id="jumlah"  type="number" max="10" placeholder="Maksimal Tiket 10">
+    <span>Jumlah Tiket tidak boleh kosong</span>
+    </p>
+    <button onclick="proses()">Kirim</button>
+
+    <h1>Sukses</h1>
+
+    <script src="form.js"></script>
+</body>
+</html>
